@@ -58,6 +58,12 @@
                                  referencedColumnNames="BRE_ID" />
     </changeSet>
 
+    <changeSet id="add column PRO_GENDER to PROFILES" author="Caleb">
+        <addColumn tableName="PROFILES">
+            <column name="PRO_GENDER" type="char(1)" />
+        </addColumn>
+    </changeSet>
+
 
 
 </databaseChangeLog>
